@@ -1,0 +1,57 @@
+/* Page colors are #514663, #4d5382, #658e9c, #8cba80, #e7e8c4 */
+
+
+* {
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+box-sizing: content-box;
+padding:0;
+}
+
+div {
+display: block;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header {
+    color: white; 
+    background-color: #514663;
+    padding: 20px; 
+}
+
+.header div ul {
+    list-style-type: none;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 0;
+}
+
+.content {
+    background-color: #e7e8c4;
+    color: #4D5382;
+    padding: 20px;
+}
+
+.content h2, .content img, .content p {
+    text-align: center;
+}
+
+.contact-me {
+    background-color: #8cba80;
+    color: #514663;
+}
+
+#profile-image {
+    width: 200px;
+    height: 231px;
+    padding: 5px;
+    border: 10px;
+    border-color: #658e9c;
+    margin: 20px;
+}
+
