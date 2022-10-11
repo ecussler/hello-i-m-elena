@@ -11,6 +11,7 @@ div {
 display: block;
 }
 
+
 a {
     color: #ffffff;
     text-decoration: none;
@@ -22,11 +23,19 @@ a {
     padding: 20px; 
 }
 
-.header div ul {
-    list-style-type: none;
+.header h1 {
+    width: 50%; 
+    display: inline-block;
 }
 
-.header div ul li {
+ul {
+    list-style-type: none;
+    display: inline-block;
+    float: right;
+    margin-top: -50px;
+}
+
+ul li {
     display: inline-block;
     margin-left: 0;
 }
@@ -37,7 +46,7 @@ a {
     padding: 20px;
 }
 
-.content h2, .content img, .content p {
+.content h2, .content h3, .content img, .content p {
     text-align: center;
 }
 
@@ -50,8 +59,9 @@ a {
     width: 200px;
     height: 231px;
     padding: 5px;
-    border: 10px;
+    border:#514663 5px solid;
+    display: block;
     border-color: #658e9c;
-    margin: 20px;
+    margin: 0 auto;
 }
 
