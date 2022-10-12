@@ -1,4 +1,4 @@
-/* Page colors are #514663, #4d5382, #658e9c, #8cba80, #e7e8c4 */
+/* Page colors are #1f2041 dark purple, #4b3f72 lighter purple, #ffc857 yellow, #119da4 sat. blue, #DDF2F8 light blue */
 
 
 * {
@@ -19,7 +19,7 @@ a {
 
 .header {
     color: white; 
-    background-color: #514663;
+    background-color: #1F2041;
     padding: 20px; 
 }
 
@@ -41,7 +41,7 @@ ul li {
 }
 
 .content {
-    background-color: #e7e8c4;
+    background-color: #EEF9FC;
     color: #4D5382;
     padding: 20px;
 }
@@ -51,17 +51,17 @@ ul li {
 }
 
 .contact-me {
-    background-color: #8cba80;
-    color: #514663;
+    background-color: #1F2041;
+    color: #ffffff;
 }
 
 #profile-image {
     width: 200px;
     height: 231px;
     padding: 5px;
-    border:#514663 5px solid;
+    border: 5px solid;
     display: block;
-    border-color: #658e9c;
+    border-color: #119fa6;
     margin: 0 auto;
 }
 
