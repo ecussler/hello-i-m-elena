@@ -75,7 +75,6 @@ nav ul {
 
 main section {
     display: flex;
-    flex-direction: row;
     padding: 10px;
 }
 .card, address {
@@ -95,6 +94,13 @@ main section {
     display: flex;
     flex-flow: row wrap;
 }
+
+section.project-card {
+    display: flex; 
+    flex-direction: column;
+    padding: 10px; 
+
+}
 .contact-me {
     color: #1f2041;
     padding: 10px;
@@ -104,6 +110,7 @@ main section {
     height: 231px;
     width: auto;
     padding: 5px;
+    border-radius: 15px;
     border: 5px solid;
     border-color: #dc8446;
     margin: 0;
