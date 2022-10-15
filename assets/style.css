@@ -7,6 +7,13 @@ box-sizing: content-box;
 padding:0;
 }
 
+body {
+    background-image: url(./photos/SL_042320_30230_30.jpg);
+    background-repeat: repeat; 
+    background-attachment: fixed;
+    background-size: cover;
+}   
+
 div {
 display: block;
 }
@@ -18,8 +25,7 @@ a {
 }
 
 .header {
-    color: white; 
-    background-color: #1F2041;
+    color: #1f2041; 
     padding: 20px; 
 }
 
@@ -40,10 +46,11 @@ ul li {
     margin-left: 0;
 }
 
-.content {
+.card, address {
     background-color: #EEF9FC;
-    color: #4D5382;
+    border-radius: 30px;
     padding: 20px;
+    margin: 10px; 
 }
 
 .content h2, .content h3, .content img, .content p {
@@ -51,8 +58,8 @@ ul li {
 }
 
 .contact-me {
-    background-color: #1F2041;
     color: #ffffff;
+    padding: 10px;
 }
 
 #profile-image {
