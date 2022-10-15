@@ -22,15 +22,19 @@ body {
     background-size: cover;
 }   
 
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 p {
     font-size: 14pt;
     color: #1f2041;
 }
-]
+
 div {
 display: block;
 }
-
 
 a {
     color: #FBF4EF;
@@ -69,6 +73,11 @@ nav ul {
 
 /* BODY STYLES */
 
+main section {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
 .card, address {
     background-color: #fbf4efdb;
     border-radius: 30px;
