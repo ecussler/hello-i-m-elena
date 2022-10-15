@@ -1,10 +1,18 @@
-/* Page colors are #1f2041 dark purple, #4b3f72 lighter purple, #ffc857 yellow, #119da4 sat. blue, #DDF2F8 light blue */
+/* Page colors are 
+#1f2041 Dark Purple 
+#dc8446 Orange 
+#cf9dac Pink 
+#c0b3ba Grey
+#f5e7dc Light Tan (shade lighter #FBF4EF) 
+#d5b294 Taupe
+*/
 
+/* GENERAL STYLES */
 
 * {
 font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 box-sizing: content-box;
-padding:0;
+padding: 0;
 }
 
 body {
@@ -20,34 +28,44 @@ display: block;
 
 
 a {
-    color: #ffffff;
+    color: #FBF4EF;
+    text-decoration: none;
+    text-shadow: 0 0 5px #FBF4EF;
+}
+
+/* HEADER STYLES */
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 0; 
+}
+
+#header-name {
+    max-width: 400px;
+    max-height: auto;
+}
+
+/* NAVIGATION STYLES */
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    border-radius: 30px;
+    padding: 10px;
+    margin 10px; 
+    color: #FBF4EF;
+    text-shadow: 0 0 5px #FBF4EF;
+    background-color: #cf9dace4;
     text-decoration: none;
 }
 
-.header {
-    color: #1f2041; 
-    padding: 20px; 
-}
-
-.header h1 {
-    width: 50%; 
-    display: inline-block;
-}
-
-ul {
-    list-style-type: none;
-    display: inline-block;
-    float: right;
-    margin-top: -50px;
-}
-
-ul li {
-    display: inline-block;
-    margin-left: 0;
-}
+/* BODY STYLES */
 
 .card, address {
-    background-color: #EEF9FC;
+    background-color: #fbf4efdb;
     border-radius: 30px;
     padding: 20px;
     margin: 10px; 
@@ -59,12 +77,8 @@ ul li {
     padding: 10px;
 }
 
-#header-name {
-    max-width: 400px;
-    max-height: auto;
-}
 #profile-image {
-    width: 200px;
+    width: auto;
     height: 231px;
     padding: 5px;
     border: 5px solid;
@@ -72,4 +86,3 @@ ul li {
     border-color: #119fa6;
     margin: 0 auto;
 }
-
