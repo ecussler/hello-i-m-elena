@@ -81,22 +81,28 @@ main section {
 .card, address {
     display: flex; 
     flex-wrap: wrap;
+    flex-direction: row;
     background-color: #fbf4efdb;
     border-radius: 30px;
     padding: 20px;
     margin: 10px;   
 }
 
+article {
+    flex-direction: column;
+}
+
+/*
 #about-me section {
     display: flex;
     flex-flow: row wrap;
 }
+*/
 
 .project-card {
     flex: 1 2 auto;
     justify-content: space-around;
 }
-
 #project-1 {
     flex: 5 0 100%;
 }
@@ -104,6 +110,7 @@ main section {
 #project-1 img {
     transform: scale(1.5, 1);
 }
+
 .contact-me {
     color: #1f2041;
     padding: 10px;
@@ -118,6 +125,9 @@ main section {
     border-color: #dc8446;
     margin: 0;
 }
+
+
+/* MEDIA QUERIES */
 
 @media screen and (max-width: 768px) {
     #profile-image {
