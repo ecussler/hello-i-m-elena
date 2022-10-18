@@ -30,6 +30,12 @@ main {
 p {
     font-size: 14pt;
     color: #1f2041;
+    line-height: 1.5;
+}
+
+h2 {
+    font-size: 20pt;
+    color:#1f2041
 }
 
 div {
@@ -40,6 +46,10 @@ a {
     color: #FBF4EF;
     text-decoration: none;
     text-shadow: 0 0 5px #FBF4EF;
+}
+
+address a {
+    color:#1f2041; 
 }
 
 /* HEADER STYLES */
@@ -71,7 +81,7 @@ nav ul {
     text-decoration: none;
 }
 
-/* BODY STYLES */
+/* GENERAL BODY STYLES */
 
 main section {
     display: flex;
@@ -88,32 +98,19 @@ main section {
     margin: 10px;   
 }
 
-article {
-    flex-direction: column;
+/* ABOUT ME STYLES */
+
+.profile {
+    background-color: #fbf4efdb;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 10px;  
+    align-items: center;
 }
 
-/*
-#about-me section {
-    display: flex;
-    flex-flow: row wrap;
-}
-*/
-
-.project-card {
-    flex: 1 2 auto;
-    justify-content: space-around;
-}
-#project-1 {
-    flex: 5 0 100%;
-}
-
-#project-1 img {
-    transform: scale(1.5, 1);
-}
-
-.contact-me {
-    color: #1f2041;
-    padding: 10px;
+.profile article {
+    max-width: 80%;
+    margin: 5px; 
 }
 
 #profile-image {
@@ -126,10 +123,65 @@ article {
     margin: 0;
 }
 
+/* PORTFOLIO STYLES */
+
+.project-card {
+    flex: 1 2 auto;
+    justify-content: space-around;
+    background-color: #d5b294b2;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+#project-1 {
+    flex: 5 0 98%;
+}
+
+#project-1 img {
+    transform: scale(1.5, 1);
+}
+
+.project-card:hover {
+    filter: blur(4px);
+}
+
+/* CONTACT ME STYLES */
+
+address {
+    font-style: normal;
+}
+address ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    border-radius: 30px;
+    padding: 10px;
+    margin: -10px; 
+    text-decoration: none;
+}
+
+/* address a {
+    justify-content: space-around;
+} */
+
+.contact-me {
+    color: #1f2041;
+    padding: 10px;
+    font-family: initial !important;  
+}
+
 
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 768px) {
+    .profile {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 5px;
+    }
+
     #profile-image {
         display: flex; 
         justify-content: center;

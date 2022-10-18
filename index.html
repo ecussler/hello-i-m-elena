@@ -10,6 +10,7 @@
 </head>
 
 <body> 
+<!---HEADER AND NAVIGATION--->
     <header class="header">
         <img id=header-name src="./assets/photos/Untitled design.png" alt="Elena Cussler">
     </header>  
@@ -31,19 +32,24 @@
     </nav>
 
     <main>
-        <section id=about-me class="card">
+        <!---ABOUT ME--->
+        <section id=about-me class="profile">
             <img id="profile-image" src="./assets/photos/IMG_2069.jpeg" alt="Elena's profile picture">
             <article>
                 <h2>Hello! I'm Elena.</h2>
+                <br>
+                <br>
                 <p>I'm a Web Development Student attending the University of Denver Coding Bootcamp. 
                 I have a strong <strong>desire to learn</strong> and thrive in a <strong>collaborative environment.</strong>
                 With my diverse work background, I can <strong>understand client perspectives</strong> and provide 
                 <strong>multi-faceted insight</strong> to the development process.
                 <br>
+                <br>
                 As my skills continue to grow, please check back on this website to see my improvements. 
                 </p>
             </article>
         </section>
+        <!---PORTFOLIO--->
         <section id=portfolio class="card">
             <h2>Portfolio</h2>
             <section id=project-1 class="project-card">
@@ -68,24 +74,19 @@
             </section>
         </section>
     </main>
+    <!---CONTACT ME--->
         <address id="contact-me" class="contact-me">
             <div>
                 <h2>Contact Me</h2>
             </div>
-            <div class="container">
-                <form action="action_page.php">
-            
-                <label for="fname">First Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="Your name..">
-            
-                <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-            
-                <label for="email">Email</label>
-                <textarea id="email" name="email" placeholder="Your email.."></textarea>
-            
-                <input type="submit" value="Submit">
-            </div>
+            <ul>
+                <li>
+                    <a href="mailto:cusslere@gmail.com">Shoot Me An Email</a>
+                </li>
+                <li>
+                    <a href="https://github.com/ecussler" target="_blank">GitHub</a>
+                </li>
+            </ul>
         </address>
     <footer class="footer">
         <p>What goes in a footer?</p>
