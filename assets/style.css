@@ -10,7 +10,7 @@
 /* GENERAL STYLES */
 
 * {
-font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-family: Dosis, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 box-sizing: content-box;
 padding: 0;
 }
@@ -29,6 +29,7 @@ main {
 
 p {
     font-size: 14pt;
+    font-family: Dosis; 
     color: #1f2041;
     line-height: 1.5;
 }
@@ -52,6 +53,12 @@ address a {
     color:#1f2041; 
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: Homemade Apple;
+}
+
+
+
 /* HEADER STYLES */
 
 .header {
@@ -74,7 +81,7 @@ nav ul {
     list-style: none;
     border-radius: 30px;
     padding: 10px;
-    margin 10px; 
+    margin: 10px; 
     color: #FBF4EF;
     text-shadow: 0 0 5px #FBF4EF;
     background-color: #cf9dace4;
@@ -110,7 +117,7 @@ main section {
 
 .profile article {
     max-width: 80%;
-    margin: 5px; 
+    margin: 10px; 
 }
 
 #profile-image {
@@ -126,23 +133,38 @@ main section {
 /* PORTFOLIO STYLES */
 
 .project-card {
-    flex: 1 2 auto;
+    flex: 1 0;
     justify-content: space-around;
-    background-color: #d5b294b2;
+    position: relative;
+    border: solid #d5b294cb 5px;
     border-radius: 15px;
     margin: 5px;
 }
 
-#project-1 {
-    flex: 5 0 98%;
+.project-card header {
+    color:#1f2041;
+    background-color:#FBF4EF;
+    border-radius: 15px;
+    padding: 10px; 
+    position: absolute;
+    top: 30px;
+    left: 30px;
 }
 
-#project-1 img {
-    transform: scale(1.5, 1);
-}
-
-.project-card:hover {
+.project-card img {
+    width: 100%;
+    height: auto; 
+    border-radius: 15px;
     filter: blur(4px);
+}
+
+#project-1 {
+    flex: 5 0 96%;
+}
+
+
+.project-card img:hover {
+    filter: blur(0);
 }
 
 /* CONTACT ME STYLES */
@@ -150,36 +172,33 @@ main section {
 address {
     font-style: normal;
 }
-address ul {
-    display: flex;
-    flex-direction: row;
+
+address ul li {
+    display: inline;
+    /* flex-direction: row; */
     list-style: none;
-    justify-content: center;
     border-radius: 30px;
     padding: 10px;
-    margin: -10px; 
+    /* margin: -10px;  */
     text-decoration: none;
 }
-
-/* address a {
-    justify-content: space-around;
-} */
 
 .contact-me {
     color: #1f2041;
     padding: 10px;
-    font-family: initial !important;  
+    font-family: initial !important; 
 }
 
 
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 768px) {
-    .profile {
+    .profile, .card {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         margin: 5px;
+        padding: 10px;
     }
 
     #profile-image {
