@@ -26,7 +26,8 @@ This application is for potential employers and fellow developers to view my wor
 
 ## Credits
 
-Background image from starline https://www.freepik.com/author/starline 
+Background image from starline https://www.freepik.com/author/starline
+ 
 Placeholder images for portfolio from Lorem Picsum https://picsum.photos/ 
 
 Credit to my tutor, Mila Hose, for helping me understand flexbox a little more and improve my best practices while coding. 
