@@ -24,6 +24,8 @@ This application is for potential employers and fellow developers to view my wor
 
 ![Website Screenshot](./assets/photos/ecussler.gitbut.io_hello-im-elena_.png)
 
+![Deployed Website](https://ecussler.github.io/hello-im-elena/)
+
 ## Credits
 
 Background image from starline https://www.freepik.com/author/starline
