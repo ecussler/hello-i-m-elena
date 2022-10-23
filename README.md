@@ -22,7 +22,7 @@ NA
 
 This application is for potential employers and fellow developers to view my work and contact me. Here is the full screenshot of my portfolio:
 
-![website demo](./assets/images/screenshot.png)
+![Website Screenshot](./assets/photos/ecussler.gitbut.io_hello-im-elena_.png)
 
 ## Credits
 
