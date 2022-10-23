@@ -151,19 +151,25 @@ main section {
     left: 30px;
 }
 
-.project-card img {
+.project-card a {
     width: 100%;
     height: auto; 
     border-radius: 15px;
     filter: blur(4px);
 }
 
+.project-card a img {
+    width: 100%;
+    height: auto; 
+    border-radius: 15px;
+}
+
 #project-1 {
-    flex: 5 0 96%;
+    flex: 5 0 98%;
 }
 
 
-.project-card img:hover {
+.project-card a:hover {
     filter: blur(0);
 }
 
@@ -171,23 +177,19 @@ main section {
 
 address {
     font-style: normal;
+    justify-content: center;
+    color: #1f2041;
+    padding: 10px;
 }
 
 address ul li {
     display: inline;
-    /* flex-direction: row; */
     list-style: none;
     border-radius: 30px;
     padding: 10px;
-    /* margin: -10px;  */
     text-decoration: none;
 }
 
-.contact-me {
-    color: #1f2041;
-    padding: 10px;
-    font-family: initial !important; 
-}
 
 
 /* MEDIA QUERIES */
@@ -197,13 +199,15 @@ address ul li {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
+        justify-content: center;
         margin: 5px;
         padding: 10px;
     }
 
     #profile-image {
         display: flex; 
-        justify-content: center;
+        /* justify-content: center; */
+        align-self: center;
     }
 
     nav ul {
